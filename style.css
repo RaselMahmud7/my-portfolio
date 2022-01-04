@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Exo 2', sans-serif;
+}
+.banner{
+    display: flex;
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+   
+
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 50%;
+    margin: 15px ;
+    padding-left: 5%;
+    
+}
+ h2{
+    font-size: 40px;
+    
+
+}
+p{
+    text-align: justify;
+ 
+}
+.name{
+    
+    color: goldenrod;
+    text-transform: uppercase ;
+    margin-bottom: 20px;
+    font-size: 60px;
+    
+
+}
+.btn{
+    text-decoration: none;
+    text-align: center;
+    margin-top: 5%;
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: white;
+    text-transform: uppercase;
+    background-image: linear-gradient(orange,gold);
+}
+#btn-1{
+    width: 15%;
+}
+#btn-2{
+    width: 30%;
+}
+.container img {
+    width: 60%;
+
+}
+.dream{
+    display: flex;
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
